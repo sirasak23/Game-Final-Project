@@ -1,0 +1,63 @@
+*{
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color:   rgb(227, 184, 170);
+}
+
+#Board {
+    background-image: url('https://ik.imagekit.io/tvlk/blog/2021/06/%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%A1%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B9%80%E0%B8%95%E0%B8%95.jpg?tr=dpr-2,w-675');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#RetryButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #000000; /* Red background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: block; /* Hidden by default */
+}
+
+#RetryButton:hover {
+    background-color: #4cdb6d; /* Darker red on hover */
+}
+
+#Reload{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+}
+
+.title{
+    font-size: 50px;
+    background-color: rgb(246, 0, 0);
+    border: rgb(0, 0, 0) solid 3px;
+    margin-bottom: 20px;
+}
+
+.RestartButton{
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+}
+
+
+.RestartButton:hover {
+    background-color: #eb3d3d; /* Darker red on hover */
+}
